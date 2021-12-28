@@ -27,6 +27,7 @@ ul.slides
     position: absolute;
     left: 200px;
     height: auto;
+    width: 50vh;
 }
 .main ul{
     bottom: 20px;

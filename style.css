@@ -1,0 +1,74 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+}
+ul.slides
+{
+    position: relative;
+    width: 700px;
+    height: 400px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+    overflow: hidden;
+}
+
+.main
+{
+    position: absolute;
+    left: 200px;
+    height: auto;
+}
+.main ul{
+    bottom: 20px;
+}
+.myframe
+{
+    position: absolute;
+    width: 15%;
+    right:30px ;
+    border: 0px;
+    height: 3500px;
+}
+.mysubframe
+{
+    position: sticky;
+    top: 0;
+    font-size: 30px;
+}
+.sticky
+{
+    position: sticky;
+    top: 0;
+}
+#Reservation
+{
+    text-decoration: none;
+    border: 2px solid #FF5809;
+    border-radius: 20px;
+    font-size: 25px;
+    color:#FF5809;
+    padding: 4px;
+    margin-left: 600px;
+}
+
+#Reservation:hover
+{
+    text-decoration: none;
+    border: 2px solid #000;
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 4px;
+    margin-left: 600px;
+    color: white;
+    background-color:#FF5809;
+}
